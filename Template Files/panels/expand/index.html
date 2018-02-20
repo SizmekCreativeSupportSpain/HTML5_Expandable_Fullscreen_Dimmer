@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Expandable Fullscreen Dimmer</title>
+<link rel="stylesheet" href="style.css"/>
+<script>EBModulesToLoad = ['Video','EBAPI','EBCMD'];</script>
+<script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+<script type="text/javascript" src="../../scripts/localPreview.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="expansion">
+		<div id="panel-container">
+			<button id="closeBtn" class="closeBtn"></button>
+			<button id="clickBtn"></button>
+			<div class="video-container centered">
+				<button id="audioBtn" class="playerBtn"></button>
+				<button id="controlBtn" class="playerBtn"></button>
+				<button id="videoClickBtn"></button>
+				<video id="video" muted playsinline poster="images/poster.jpg">
+					<source src="videos/video.mp4" type="video/mp4">
+				</video>
+			</div>		
+		</div>
+		</div>
+	</div>
+</body>
+</html>
